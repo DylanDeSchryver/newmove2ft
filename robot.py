@@ -11,7 +11,7 @@ class RobotClass:
         self.motor2_forward_pin = 'PA21'
         self.motor2_backward_pin = 'PA22'
 
-        GPIO.setmode(GPIO.Sunxi)
+        GPIO.setmode(GPIO.SUNXI)
         GPIO.setup(self.motor1_forward_pin, GPIO.OUT)
         GPIO.setup(self.motor1_backward_pin, GPIO.OUT)
         GPIO.setup(self.motor2_forward_pin, GPIO.OUT)
