@@ -1,3 +1,6 @@
+import OPi.GPIO as GPIO
+import time
+
 class RobotClass:
     def __init__(self):
         # Configure GPIO pins for motor control
